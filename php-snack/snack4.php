@@ -12,32 +12,19 @@
 
 $alunni = [
     [
-        "nome" => "OlimpiaMilano",
-        "cognome" => "Cantù",
-        "voti" = [
-            "matematica" => 8,
-            "italiano" => 7,
-            "storia" => 5
-            
-        ]
+        "nome" => "gigi",
+        "cognome" => "Ceruleo",
+        "voti" => [8,7,5]
     ],
     [
-        "nome" => "VirtusBologna",
-        "cognome" => "VirtusRoma",
-        "voti" = [
-            "matematica" => 8,
-            "italiano" => 7,
-            "storia" => 5
-        ]
+        "nome" => "luigi",
+        "cognome" => "bianchi",
+        "voti" => [8,7,5]
     ],
     [
-        "nome" => "F.C.Matera",
-        "cognome" => "Inter",
-        "voti" = [
-            "matematica" => 8,
-            "italiano" => 7,
-            "storia" => 5
-        ]
+        "nome" => "mario",
+        "cognome" => "Rossi",
+        "voti" = [8,7,5]
     ],
 ];
 
