@@ -57,11 +57,14 @@ $posts = [
     ],
 ];
 
-for ($i = 0; $i < count($posts); $i++) {
 
-   var_dump(array_keys($posts));
-   echo "{$posts[$i]['title']} - {$posts[$i]['author']} - {$posts[$i]['text']} ";
-}
+    
+    $key = array_keys($posts);
+    
+    for($i = 0; $i < count($posts); $i++) {
+        echo "{$key[$i]}:";
+        echo "{$posts[$key[$i]]['title']} {$posts[$key[$i]][$i]['author']} {$posts[$key[$i]][$i]['text']} <br>";
+    }
 
 ?>
 
