@@ -24,9 +24,16 @@ $alunni = [
     [
         "nome" => "mario",
         "cognome" => "Rossi",
-        "voti" = [8,7,5]
+        "voti" => [8,7,5]
     ],
 ];
+
+for ($i = 0; $i < count($alunni); $i++) {
+    
+    $mediaVoti = array_sum($alunni[$i]['voti']) / count($alunni[$i]['voti']);
+    
+    echo "nome: {$alunni[$i]['nome']} <br> cognome: {$alunni[$i]['cognome']} <br> media: {$mediaVoti} <br><br>";
+};
 
 ?>
 
